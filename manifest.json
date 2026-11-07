@@ -1,0 +1,19 @@
+{
+  "name": "Dulo",
+  "author": "local",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "dulo",
+      "name": "Dulo",
+      "description": "Movies and TV from dulo.mov: adaptive up-to-4K HLS plus extra servers, with subtitles",
+      "version": "1.0.0",
+      "author": "local",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/dulo.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["en"]
+    }
+  ]
+}
